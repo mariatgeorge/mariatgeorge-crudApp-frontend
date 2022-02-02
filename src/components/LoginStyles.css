@@ -1,0 +1,199 @@
+.main_container {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+  height: 100%;
+  background: white;
+  position: absolute;
+  right: 0px !important;
+}
+
+.left-sub-container {
+  width: 50%;
+  height: 100%;
+  background: #fbfaf6;
+}
+
+.right-sub-container {
+  width: 50%;
+  height: 100%;
+  background: #fbfaf6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  top: 0;
+}
+
+.form-input {
+  border-radius: 5.91319px !important;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2px;
+  line-height: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+
+.form-button {
+  border-radius: 5.91319px !important;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2px;
+  line-height: 14px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  width: 328.92px;
+  height: 41.39px;
+}
+
+.ui.button {
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  border: 0px !important;
+}
+
+.sign-up-button {
+  background: #eb2227 !important;
+  box-shadow: 0px 2.9566px 2.9566px rgba(0, 0, 0, 0.25),
+    inset 0px 1.4783px 2.9566px rgba(255, 255, 255, 0.25),
+    inset 0px -1.4783px 2.9566px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 11.8264px !important;
+  font-family: Nunito !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 16px !important;
+  letter-spacing: 0em !important;
+}
+
+.text-error {
+  color: #eb2227 !important;
+}
+
+.sign-up-google {
+  font-family: Nunito !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-size: 11.8264px !important;
+  line-height: 16px !important;
+  color: rgba(0, 0, 0, 0.5) !important;
+  border: 1.4783px solid rgba(56, 61, 63, 0.25) !important;
+  box-sizing: border-box !important;
+  border-radius: 11.8264px !important;
+}
+
+.input {
+  position: relative;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #84a2a9;
+  border-radius: 5.91319px;
+  width: 328.92px;
+  height: 41.39px;
+  font-family: Nunito;
+  font-size: 2px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #84a2a9;
+}
+img {
+  position: absolute;
+  right: 5px;
+  width: 10px;
+}
+
+.icon-user {
+  height: 17.73958396911621px;
+  width: 17.73958396911621px;
+}
+
+.image-style {
+  position: absolute;
+  width: 431px;
+  height: 290px;
+  margin: auto;
+}
+
+.ui.input > input {
+  border: 0px !important;
+  font-size: 10px !important;
+}
+
+.sign-up-label1 {
+  font-family: Nunito;
+  display: flex;
+  align-items: center;
+  color: #0b4654;
+  /* margin-left: 140px; */
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.sign-up-label2 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11.8264px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.sign-up-label3 {
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
+
+.loginack__label1 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  /* display: flex;
+      align-items: center;
+      text-align: center; */
+  color: #07cc66;
+  margin-top: 40px;
+}
+
+.loginack__label2 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+}
