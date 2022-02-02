@@ -1,0 +1,66 @@
+.main_container {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+  height: 100%;
+  background: white;
+  position: absolute;
+  right: 0px !important;
+}
+
+.left-sub-container {
+  width: 50%;
+  height: 100%;
+  background: #fbfaf6;
+}
+
+.right-sub-container {
+  width: 50%;
+  height: 100%;
+  background: #fbfaf6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  top: 0;
+}
+
+.sign-up-label1 {
+  font-family: Nunito;
+  display: flex;
+  align-items: center;
+  color: #0b4654;
+  /* margin-left: 140px; */
+  font-family: Nunito;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.loginack__label1 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  color: #07cc66;
+  margin-top: 40px;
+}
+
+.loginack__label2 {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+}

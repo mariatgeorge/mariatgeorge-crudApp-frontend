@@ -3,8 +3,8 @@ import { connect } from "react-redux";
 import { Image } from "semantic-ui-react";
 import Image1 from "../Images/page1-image1.svg";
 import { Navigate } from "react-router-dom";
-import AccountCreationForm from "./AccountCreationForm";
-import RenderInfoImage from "./RenderInfoImage";
+import AccountCreationForm from "./Form/AccountCreationForm";
+import RenderInfoImage from "./Common/RenderInfoImage";
 
 export function SignUp(props) {
   const [userCreated, setUserCreated] = useState(false);
@@ -15,7 +15,6 @@ export function SignUp(props) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
     };
-    console.log(requestOptions);
     fetch("http://localhost:8080/users", requestOptions)
       .then((response) => {
         if (response.status === 201) {
@@ -33,6 +32,7 @@ export function SignUp(props) {
       })
       .catch((error) => {
         console.error("Error saving data: ", error);
+        alert("Error occured while saving data: ", error)
       });
   };
 
@@ -60,7 +60,7 @@ export function SignUp(props) {
         </div>
       </div>
       <div className="right-sub-container">
-      <RenderInfoImage/>
+        <RenderInfoImage />
       </div>
     </div>
   );

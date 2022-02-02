@@ -5,8 +5,3 @@ export const isValueNullOrUndefined = (value) => {
         return true;
     return false;
 };
-
-export const createAccount = (values) => {
-    console.log("submited")
-    console.log(values);
-}

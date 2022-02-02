@@ -1,0 +1,70 @@
+.form-button {
+    border-radius: 5.91319px !important;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2px;
+    line-height: 14px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    width: 328.92px;
+    height: 41.39px;
+  }
+
+  .sign-up-button {
+    background: #eb2227 !important;
+    box-shadow: 0px 2.9566px 2.9566px rgba(0, 0, 0, 0.25),
+      inset 0px 1.4783px 2.9566px rgba(255, 255, 255, 0.25),
+      inset 0px -1.4783px 2.9566px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 11.8264px !important;
+    font-family: Nunito !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 16px !important;
+    letter-spacing: 0em !important;
+  }
+
+  .sign-up-google {
+    font-family: Nunito !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 11.8264px !important;
+    line-height: 16px !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+    border: 1.4783px solid rgba(56, 61, 63, 0.25) !important;
+    box-sizing: border-box !important;
+    border-radius: 11.8264px !important;
+  }
+  
+  .text-error {
+    color: #eb2227 !important;
+  }
+
+  .icon-user {
+    height: 17.73958396911621px;
+    width: 17.73958396911621px;
+  }
+  
+  .sign-up-label2 {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.8264px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.5) !important;
+  }
+  
+  .sign-up-label3 {
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+  }
+  

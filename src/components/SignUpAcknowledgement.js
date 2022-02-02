@@ -1,10 +1,9 @@
 import React from "react";
-import "./LoginStyles.css";
+import "./SignUpStyles.css";
 import { Image } from "semantic-ui-react";
 import Image1 from "../Images/page1-image1.svg";
 import Image3 from "../Images/image 3.svg";
-import RenderInfoImage from "./RenderInfoImage";
-
+import RenderInfoImage from "./Common/RenderInfoImage";
 export default function SignUpAcknowledgement() {
   return (
     <div>

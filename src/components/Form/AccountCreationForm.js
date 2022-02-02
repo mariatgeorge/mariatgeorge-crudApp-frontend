@@ -1,13 +1,13 @@
 import React, { Fragment } from "react";
 import { Field, reduxForm } from "redux-form";
 import { Form, Input, Icon, Button, Image } from "semantic-ui-react";
-import { isValueNullOrUndefined } from "../Functions";
-import "./LoginStyles.css";
-import userIcon from "../Images/user.svg";
-import lockIcon from "../Images/lock.svg";
-import emailIcon from "../Images/email.svg";
-import eyeSlashIcon from "../Images/eye-slash.svg";
-import googleIcon from "../Images/google.svg";
+import { isValueNullOrUndefined } from "../../Functions";
+import "./CSS/FormStyles.css";
+import userIcon from "../../Images/user.svg";
+import lockIcon from "../../Images/lock.svg";
+import emailIcon from "../../Images/email.svg";
+import eyeSlashIcon from "../../Images/eye-slash.svg";
+import googleIcon from "../../Images/google.svg";
 
 const validate = (values) => {
   const errors = {};
@@ -67,7 +67,6 @@ const renderField = ({
           {...input}
           placeholder={placeholder}
           type={type}
-          className="form-control"
         />
       </Input>
       <div style={{ textAlign: "left" }}>
@@ -87,11 +86,11 @@ const renderField = ({
 );
 
 const AccountCreationForm = (props) => {
-  const { handleSubmit, pristine, submitting } = props;
+  const { handleSubmit, pristine, submitting,invalid } = props;
   return (
     <Fragment>
       <Form onSubmit={handleSubmit}>
-        <div className="form-group">
+        <div>
           <Field
             name="name"
             component={renderField}
@@ -99,7 +98,7 @@ const AccountCreationForm = (props) => {
             icon1Src={userIcon}
           />
         </div>
-        <div className="form-group">
+        <div>
           <Field
             name="emailId"
             component={renderField}
@@ -107,7 +106,7 @@ const AccountCreationForm = (props) => {
             icon1Src={emailIcon}
           />
         </div>
-        <div className="form-group">
+        <div>
           <Field
             name="password"
             type="password"
@@ -140,6 +139,7 @@ const AccountCreationForm = (props) => {
               color: "white",
             }}
             type="submit"
+            disabled={invalid|| submitting || pristine}
           >
             SIGN UP
           </Button>

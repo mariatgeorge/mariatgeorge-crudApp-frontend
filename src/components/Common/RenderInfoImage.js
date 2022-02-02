@@ -1,10 +1,10 @@
 import React from "react";
-import Vector1 from "../Images/Vector-1.svg";
-import Vector2 from "../Images/Vector-2.svg";
-import Vector3 from "../Images/Vector-3.svg";
+import Vector1 from "../../Images/Vector-1.svg";
+import Vector2 from "../../Images/Vector-2.svg";
+import Vector3 from "../../Images/Vector-3.svg";
 import {Image} from "semantic-ui-react";
-import Image2 from "../Images/image 2.png";
-import "./LoginStyles.css";
+import Image2 from "../../Images/image 2.png";
+import "./CSS/RenderImageStyles.css";
 
 export default function RenderInfoImage() {
   return (

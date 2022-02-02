@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url("https://fonts.googleapis.com/css?family=Nunito");
 
-body, html {
-    font-family: 'Nunito'!important;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
+body,
+html {
+  font-family: "Nunito" !important;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 .App {
@@ -46,4 +47,43 @@ body, html {
   to {
     transform: rotate(360deg);
   }
+}
+.ui.button {
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  border: 0px !important;
+}
+
+.input {
+  position: relative;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #84a2a9;
+  border-radius: 5.91319px;
+  width: 328.92px;
+  height: 41.39px;
+  font-family: Nunito;
+  font-size: 2px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #84a2a9;
+}
+img {
+  position: absolute;
+  right: 5px;
+  width: 10px;
+}
+
+.ui.input > input {
+  border: 0px !important;
+  font-size: 10px !important;
 }
