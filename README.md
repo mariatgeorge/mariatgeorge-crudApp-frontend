@@ -1,6 +1,6 @@
 # CRUD App frontend
 
-The React.js application is built using create-react-app and React semantic UI for CSS support.
+The React.js application is built using create-react-app and React semantic UI for CSS support.NPM library redux-form is used for form validations and submission.
 ## Installation
 
 Use the node package manager [npm](https://pip.pypa.io/en/stable/) to install libraries in package.json.
